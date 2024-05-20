@@ -12,13 +12,13 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/yuin/goldmark v1.7.0
 	github.com/yuin/goldmark-highlighting/v2 v2.0.0-20230729083705-37449abec8cc
-	golang.org/x/net v0.17.0
+	golang.org/x/net v0.23.0
 )
 
 require (
 	github.com/alecthomas/chroma/v2 v2.2.0 // indirect
 	github.com/dlclark/regexp2 v1.7.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
