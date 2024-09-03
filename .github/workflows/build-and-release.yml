@@ -92,19 +92,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download Linux artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: glee_linux.bin
           path: /tmp
 
       # - name: Download macOS artifact
-        # uses: actions/download-artifact@v2
+        # uses: actions/download-artifact@v4.1.7
         # with:
         #   name: glee_mac.bin
         #   path: /tmp
 
       - name: Download Windows artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: glee_windows.exe
           path: /tmp
